@@ -30,13 +30,5 @@ public class TimeCalc {
                 
             }
         }
-        
-    
- // Total minutes = (10 hours * 60 minutes) + 30 minutes + 4055 minutes = 4685 minutes;
-//Total hours = 4685 / 60 = 78;
-//New hours = 78 % 24 = 6; // The remainder operator % is also known as modulo
-//New minutes = 4685 – (78 * 60) = 5;
-//Therefore the answer is 06:05.
-
     }
 }
