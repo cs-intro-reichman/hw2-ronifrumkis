@@ -27,7 +27,7 @@ public class TimeCalc {
 				} 
 			else {
 				System.out.println(Newhours+":"+Newminutes);
-                
+            
             }
         }
     }
