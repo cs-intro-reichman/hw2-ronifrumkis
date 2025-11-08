@@ -30,7 +30,7 @@ public class Collatz {
 						System.out.print(M + " ");
 						Count = Count + 1;
 					}
-					System.out.println(" (" + Count + ")");
+					System.out.println("(" + Count + ")");
 				}
 				System.out.println("Every one of the first " + Highestseed + " hailstone sequences reached 1.");
 				
