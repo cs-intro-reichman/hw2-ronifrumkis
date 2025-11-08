@@ -1,7 +1,7 @@
 
 public class Cheers {
         public static void main(String[] args) {
-	    String cheers = args [0];
+	    String cheers = args [0].toUpperCase();
             int N = Integer.parseInt(args [1]);
 
             String ancondition = "AEFHILMNORSX";
@@ -18,7 +18,7 @@ public class Cheers {
                         
                 }
 
-            System.out.println("Give me " + ana + ": " + letter + "!");
+            System.out.println("Give me " + ana + " " + letter + ": " + letter + "!");
 
             }
 
