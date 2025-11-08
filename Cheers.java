@@ -14,7 +14,7 @@ public class Cheers {
                         ana = "an";     
                 }              
                   else {
-                        ana = "a";
+                        ana = "a ";
                         
                 }
 
