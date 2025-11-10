@@ -4,7 +4,7 @@ public class Collatz {
 		int Highestseed = Integer.parseInt(args [0]);
 	    String chosen_mode = args [1];
 
-		if (chosen_mode.equals("V")) {
+		if (chosen_mode.equals("V" ) || chosen_mode.equals("v")) {
 			for (int i = 1; i <= Highestseed ; i++) { 
 				int M = i;
 				int Count = 1;
