@@ -16,3 +16,6 @@ public class CalcPi {
 		System.out.println("pi, approximated:     " + pisum);
 	}
 }
+
+// Camel case - almostpi -> almostPi 
+
