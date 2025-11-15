@@ -32,3 +32,9 @@ public class TimeCalc {
         }
     }
 }
+
+// great
+// notice camel case
+// NewHours -> newHours
+// totalminutes -> totalMinutes
+
