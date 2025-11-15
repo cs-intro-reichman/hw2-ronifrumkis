@@ -30,3 +30,8 @@ public  class  TestRandom {
 				} 
 	   }
 }
+
+// great namings! dont be afraid of long names (not too long of course)
+// I wouldnt choose the name 'edgecase' since its the input number. we usually call it 'N'
+// I would call edge case a varaible that tests an edge case 
+
