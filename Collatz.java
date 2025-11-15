@@ -1,10 +1,10 @@
 // Demonstrates the Collatz conjecture.
 public class Collatz {
 	public static void main(String args[]) {
-		int Highestseed = Integer.parseInt(args [0]);
-	    String chosen_mode = args [1];
+		int Highestseed = Integer.parseInt(args [0]); // notice camel case -> highestSeed
+	    String chosen_mode = args [1]; // chosenMode
 
-		if (chosen_mode.equals("V" ) || chosen_mode.equals("v")) {
+		if (chosen_mode.equals("V" ) || chosen_mode.equals("v")) { // great thinking of edge cases :)
 			for (int i = 1; i <= Highestseed ; i++) { 
 				int M = i;
 				int Count = 1;
@@ -40,3 +40,4 @@ public class Collatz {
 				}
 	}
 }
+
